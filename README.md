@@ -7,7 +7,7 @@ Contents:
 ---
 
 ### auto-show-hide-window.py
-A script I wrote to automate the showing and hiding of a specific scene item so I wouldn't have to manually click the "eye" button every time I switched to and from a certain window. (Adapted from [xantyleonhart](https://github.com/xantyleonhart/obs-scripts/blob/main/hidewindow.py))
+A script I wrote to automate the showing and hiding of a specific scene item so I wouldn't have to manually click the "eye" button every time I switched to and from a certain window. Works on Windows OS only, since it uses the libaries `win32gui` and `win32process`. (Adapted from [xantyleonhart](https://github.com/xantyleonhart/obs-scripts/blob/main/hidewindow.py))
 
 Properties:
 - **Enabled (boolean)**: Checked if you want the script to be functioning, unchecked if not.
