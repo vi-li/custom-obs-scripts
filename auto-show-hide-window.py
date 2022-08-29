@@ -200,7 +200,7 @@ def disconnect_callbacks():
 def script_load(settings):
     global debug_mode
     if debug_mode: print("[CS] Loaded script.")
-    print("Hi! This script is written by Vivian-S-Li on GitHub, jellyl3mon on Twitch.\nHave a nice day! :)")
+    print("Hi! This script is written by vi-li on GitHub, jellyl3mon on Twitch.\nHave a nice day! :)")
     print("Currently, there are some limitations.\nYou must name the source you want to show/hide the same as its executable name (ex. chrome.exe for Google Chrome).")
     obs.obs_frontend_add_event_callback(on_load)
 
