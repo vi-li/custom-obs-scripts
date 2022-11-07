@@ -15,10 +15,9 @@ Properties:
 - **Scene (string)**: Which scene you want this functionality to work on. Currently, you can only specify one scene at a time.
 - **Source (string)**: Which source you want to show/hide. Currently, you can only specify one source at a time.
 
-Limitations:
-- **WIP**: Seems to cause some kind of memory leak. Need to fix.
-- Script only works on one scene and one source at the moment.
-- Source needs to be named the same thing as its application .exe at the moment.
+Limitations (Temporary):
+- Script only works on one scene and one source.
+- Source needs to be named the same thing as its application .exe.
 
 ---
 

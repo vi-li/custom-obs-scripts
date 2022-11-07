@@ -98,6 +98,7 @@ def update_source(calldata=None):
     props = obs.obs_source_get_settings(source)
     if debug_mode: print("Updated source: ", source_name)
     obs.obs_source_release(source)
+    obs.obs_data_release(props)
 
 # ------------------------------------------------------------
 
@@ -211,4 +212,3 @@ def on_load(event):
     if event == obs.OBS_FRONTEND_EVENT_FINISHED_LOADING:
         connect_callbacks()
         update_source()
-
